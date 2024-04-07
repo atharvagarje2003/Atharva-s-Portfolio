@@ -79,8 +79,17 @@ export default function Social() {
       </h2>
 
       <div className="Footerimage">
-        <img src={foot} style={{backgroundSize:'cover',backgroundPosition:'center',width:'80%', height:'200%' }} />
+        <img
+          src={foot}
+          style={{
+            backgroundSize: "cover",
+            backgroundPosition: "center",
+            width: "80%",
+            height: "200%",
+          }}
+        />
       </div>
     </div>
   );
 }
+      
